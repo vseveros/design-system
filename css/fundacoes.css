@@ -2,6 +2,9 @@
     • Inclusão das variáveis de cores utilitárias;
     • Atualização das cores dos badges;
 */ 
+/* Atualização - 26/06/2025
+    • Inclusão dos gradientes
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
@@ -319,8 +322,39 @@
     --utilitary-warning-800: var(--warning-800);
     --utilitary-warning-900: var(--warning-900);
 
+    /*************************** Gradientes ***************************/
 
+    /***** Primáros *****/
+    --gradients-primary-50-100: linear-gradient(180deg, var(--primary-50) 0%, var(--primary-100) 100%);
+    --gradients-primary-100-200: linear-gradient(180deg, var(--primary-100) 0%, var(--primary-200) 100%);
+    --gradients-primary-200-300: linear-gradient(180deg, var(--primary-200) 0%, var(--primary-300) 100%);
+    --gradients-primary-300-400: linear-gradient(180deg, var(--primary-300) 0%, var(--primary-400) 100%);
+    --gradients-primary-600-800: linear-gradient(180deg, var(--primary-600) 0%, var(--primary-700) 100%);
+    --gradients-primary-800-900: linear-gradient(180deg, var(--primary-800) 0%,var(--primary-900) 100%);
 
+    /***** Secundários *****/
+    --gradients-secondary-50-100: linear-gradient(180deg, var(--secondary-50) 0%, var(--secondary-100) 100%);
+    --gradients-secondary-100-200: linear-gradient(180deg, var(--secondary-100) 0%, var(--secondary-200) 100%);
+    --gradients-secondary-200-300: linear-gradient(180deg, var(--secondary-200) 0%, var(--secondary-300) 100%);
+    --gradients-secondary-400-500: linear-gradient(180deg, var(--secondary-400) 0%, var(--secondary-500) 100%);
+    --gradients-secondary-500-600: linear-gradient(180deg, var(--secondary-500) 0%, var(--secondary-600) 100%);
+    --gradients-secondary-600-800: linear-gradient(180deg, var(--secondary-600) 0%, var(--secondary-800) 100%);
+
+    /***** Terciários *****/
+    --gradients-tertiary-50-100: linear-gradient(180deg, var(--tertiary-50) 0%, var(--tertiary-100) 100%);
+    --gradients-tertiary-100-200: linear-gradient(180deg, var(--tertiary-100) 0%, var(--tertiary-200) 100%);
+    --gradients-tertiary-200-300: linear-gradient(180deg, var(--tertiary-200) 0%, var(--tertiary-300) 100%);
+    --gradients-tertiary-400-500: linear-gradient(180deg, var(--tertiary-400) 0%, var(--tertiary-500) 100%);
+    --gradients-tertiary-500-600: linear-gradient(180deg, var(--tertiary-500) 0%, var(--tertiary-600) 100%);
+    --gradients-tertiary-700-800: linear-gradient(180deg, var(--tertiary-700) 0%, var(--tertiary-800) 100%);
+
+    /***** Neutros *****/
+    --gradients-tertiary-50-100: linear-gradient(180deg, var(--neutrals-50) 0%, var(--neutrals-100) 100%);
+    --gradients-tertiary-100-200: linear-gradient(180deg, var(--neutrals-100) 0%, var(--neutrals-200) 100%);
+    --gradients-tertiary-200-300: linear-gradient(180deg, var(--neutrals-200) 0%, var(--neutrals-300) 100%);
+    --gradients-tertiary-600-700: linear-gradient(180deg, var(--neutrals-600) 0%, var(--neutrals-700) 100%);
+    --gradients-tertiary-700-800: linear-gradient(180deg, var(--neutrals-700) 0%, var(--neutrals-800) 100%);
+    --gradients-tertiary-800-900: linear-gradient(180deg, var(--neutrals-800) 0%, var(--neutrals-900) 100%);
 
     /*************************** Dimensões ***************************/
 
@@ -360,7 +394,8 @@
     --icon-sm: 1rem; /*16px*/
     --icon-md: 1.3rem; /*20px*/
     --icon-lg: 1.5rem; /*24px*/
-    --icon-xlg: 2rem; /*32px*/
+    --icon-xl: 2rem; /*32px*/
+    --icon-2xl: 2.25rem; /*36px*/
 
     /*************************** Sombras ***************************/
     --shadow-xs: 0px 1px 3px 0px rgba(34, 34, 34, 0.06);
@@ -393,6 +428,12 @@
 }
 
 /*************************** Tipografia • Estilos ***************************/
+
+
+h1, h2, h3, h4, h5, h6, p {
+     margin: 0;
+}
+
 
 body {
     font-family: var(--fonte-principal);
@@ -476,6 +517,11 @@ p, .text-md {
 /*************************** Utilitários • Estilos ***************************/
 .rounded-pill{
     border-radius: var(--radius-pill)!important;
+}
+ 
+.container {
+    width: 94%;
+    margin: 0 auto;
 }
 
 /*************************** Botões • Estilos ***************************/

@@ -1,0 +1,180 @@
+.design_system_header {
+    width: 96%;
+    padding: var(--space-4xl);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg-default);
+    .design_system_header_info {
+        width: 80%;
+        padding: var(--space-8xl);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-12xl);
+        flex: 1 0 0;
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--border-action);
+        background: var(--bg-light);
+    }
+    .design_system_header_breadcrumb {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+        gap: var(--space-md);
+        color: var(--text-tertiary);
+        img {
+            width: var(--icon-2xl);
+        }
+        .material-icons {
+            font-size: var(--icon-lg);
+        }
+        .text-lg {
+            font-weight: 700;
+        }
+    }
+    .design_system_header_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-sm);
+        align-self: stretch;
+    }
+    h1 {
+        color: var(--text-action);
+        margin-bottom: 0px;
+    }
+    p {
+        color: var(--text-body);
+        margin-top: 0px
+    }
+}
+
+.detalhes_gradientes {
+    margin: var( --space-8xl) auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    .detalhes_gradientes-texto {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-sm);
+        h6 {
+        color: var(--text-title);
+        }
+        p {
+            color: var(--text-body);
+        }
+    }
+    .detalhes_gradientes-cards {
+        display: flex;
+        gap: var(--space-md);
+    }
+}
+
+.card_documentacao_gradiente {
+    width: 280px;
+    padding: var(--space-sm);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-heavy);
+    background: var(--bg-default);
+    span:nth-child(1) {
+        border-radius: var(--radius-md);
+        display: grid;
+        grid-area: 1 / 1 / 2 / 3;
+        height: 100px;
+        padding: var(--space-sm);
+    }
+    span:nth-child(2), span:nth-child(3){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    span:nth-child(2) {
+        color: var(--text-title);
+        font-weight: 700;
+    }
+    span:nth-child(3) {
+        color: var(--text-body);
+    }
+}
+
+/***** Primário *****/
+
+.gradients-primary-50-100 {
+    background: var(--gradients-primary-50-100);
+} 
+.gradients-primary-100-200 {
+    background: var(--gradients-primary-100-200);
+}
+
+.gradients-primary-200-300 {
+    background: var(--gradients-primary-200-300);
+}
+
+.gradients-primary-300-400{
+    background: var(--gradients-primary-300-400);
+}
+
+.gradients-primary-600-800{
+    background: var(--gradients-primary-600-800);
+}
+
+.gradients-primary-800-900{
+    background: var(--gradients-primary-800-900);
+}
+
+/***** Secundários *****/
+.gradients-secondary-50-100 {
+    background: var(--gradients-secondary-50-100);
+}
+
+.gradients-secondary-100-200 {
+    background: var(--gradients-secondary-100-200);
+}
+
+.gradients-secondary-200-300 {
+    background: var(--gradients-secondary-200-300);
+}
+
+.gradients-secondary-400-500 {
+    background: var(--gradients-secondary-400-500);
+}
+
+.gradients-secondary-500-600 {
+    background: var(--gradients-secondary-500-600);
+}
+
+.gradients-secondary-600-800 {
+    background: var(--gradients-secondary-600-800);
+}
+
+/***** Terciários *****/
+
+.gradients-tertiary-50-100 {
+    background: var(--gradients-tertiary-50-100);
+}
+
+.gradients-tertiary-100-200 {
+    background: var(--gradients-tertiary-100-200);
+}
+
+.gradients-tertiary-200-300 {
+    background: var(--gradients-tertiary-200-300);
+}
+
+.gradients-tertiary-400-500 {
+    background: var(--gradients-tertiary-400-500);
+}
+
+.gradients-tertiary-500-600 {
+    background: var(--gradients-tertiary-500-600);
+}
+
+.gradients-tertiary-700-800 {
+    background: var(--gradients-tertiary-700-800);
+}
