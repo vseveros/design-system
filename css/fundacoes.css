@@ -2,8 +2,12 @@
     • Inclusão das variáveis de cores utilitárias;
     • Atualização das cores dos badges;
 */ 
-/* Atualização - 26/06/2025
+/* Atualização - 24/06/2025
     • Inclusão dos gradientes
+*/
+
+/* Atualização - 25/06/2025
+    • Criação das variáveis de peso (font-weight)
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -425,6 +429,12 @@
     --text-md: 1rem; /*16px*/
     --text-sm: 0.875rem; /*14px*/
     --text-xs: 0.75rem; /*12px*/
+
+    /***** Peso *****/
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
 }
 
 /*************************** Tipografia • Estilos ***************************/
@@ -442,42 +452,42 @@ body {
 
 .display-2xl {
     font-size: var(--display-2xl);
-    font-weight: 700;
+    font-weight: var(--weight-700);
     line-height: 125%;
     letter-spacing: -1.44px;
 }
 
 .display-xl {
     font-size: var(--display-xl);
-    font-weight: 700;
+    font-weight: var(--weight-700);
     line-height: 120%;
     letter-spacing: -1.2px;
 }
 
 .display-lg {
     font-size: var(--display-lg);
-    font-weight: 700;
+    font-weight: var(--weight-700);
     line-height: 125%;
     letter-spacing: -0.96px;
 }
 
 .display-md {
     font-size: var(--display-md);
-    font-weight: 700;
+    font-weight: var(--weight-700);
     line-height: 122.222%;
     letter-spacing: -0.72px;
 }
 
 .display-sm {
     font-size: var(--display-sm);
-    font-weight: 700;
+    font-weight: var(--weight-700);
     line-height: 118.75%;
     letter-spacing: 0;
 }
 
 .display-xs {
     font-size: var(--display-xs);
-    font-weight: 700;
+    font-weight: var(--weight-700);
     line-height: 133.333%;
     letter-spacing: 0;
 }
