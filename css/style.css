@@ -103,78 +103,19 @@
     }
 }
 
-/***** Primário *****/
 
-.gradients-primary-50-100 {
-    background: var(--gradients-primary-50-100);
-} 
-.gradients-primary-100-200 {
-    background: var(--gradients-primary-100-200);
-}
 
-.gradients-primary-200-300 {
-    background: var(--gradients-primary-200-300);
-}
+/******** Badges ********/
 
-.gradients-primary-300-400{
-    background: var(--gradients-primary-300-400);
-}
-
-.gradients-primary-600-800{
-    background: var(--gradients-primary-600-800);
-}
-
-.gradients-primary-800-900{
-    background: var(--gradients-primary-800-900);
-}
-
-/***** Secundários *****/
-.gradients-secondary-50-100 {
-    background: var(--gradients-secondary-50-100);
-}
-
-.gradients-secondary-100-200 {
-    background: var(--gradients-secondary-100-200);
-}
-
-.gradients-secondary-200-300 {
-    background: var(--gradients-secondary-200-300);
-}
-
-.gradients-secondary-400-500 {
-    background: var(--gradients-secondary-400-500);
-}
-
-.gradients-secondary-500-600 {
-    background: var(--gradients-secondary-500-600);
-}
-
-.gradients-secondary-600-800 {
-    background: var(--gradients-secondary-600-800);
-}
-
-/***** Terciários *****/
-
-.gradients-tertiary-50-100 {
-    background: var(--gradients-tertiary-50-100);
-}
-
-.gradients-tertiary-100-200 {
-    background: var(--gradients-tertiary-100-200);
-}
-
-.gradients-tertiary-200-300 {
-    background: var(--gradients-tertiary-200-300);
-}
-
-.gradients-tertiary-400-500 {
-    background: var(--gradients-tertiary-400-500);
-}
-
-.gradients-tertiary-500-600 {
-    background: var(--gradients-tertiary-500-600);
-}
-
-.gradients-tertiary-700-800 {
-    background: var(--gradients-tertiary-700-800);
+.badges-detalhes {
+    margin: var(--space-lg);
+    display: flex;
+    gap: var(--space-xl);
+    justify-content: center;
+    div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-lg);
+        align-items: center;
+    }
 }
