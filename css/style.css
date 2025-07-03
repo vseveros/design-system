@@ -119,3 +119,16 @@
         align-items: center;
     }
 }
+
+.badges-group-detalhes {
+    margin: var(--space-lg);
+    display: flex;
+    gap: var(--space-xl);
+    justify-content: center;
+    div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: var(--space-lg);
+        align-items: center;
+    }
+}

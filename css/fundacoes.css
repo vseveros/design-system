@@ -14,6 +14,10 @@
     • Atualização e inclusão dos novos badges
 */
 
+/* Atualização - 03/07/2025
+    • Atualização e inclusão dos novos badges-groups
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
@@ -508,13 +512,13 @@ body {
     letter-spacing: 0;
 }
 
-p, .text-md, .badge-lg {
+p, .text-md, .badge-lg, .badge-group-lg {
     font-size: var(--text-md);
     line-height: 142.857%;
     letter-spacing: 0;
 }
 
-.text-sm, .badge-md {
+.text-sm, .badge-md,.badge-group-md {
     font-size: var(--text-sm);
     line-height: 142.857%;
     letter-spacing: 0;
@@ -607,7 +611,7 @@ p, .text-md, .badge-lg {
 
 
 /*************************** Utilitários • Estilos ***************************/
-.rounded-pill{
+.rounded-pill {
     border-radius: var(--radius-pill)!important;
 }
  
@@ -820,6 +824,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-radius: var(--radius-md);
+    white-space: nowrap;
     span {
         font-size: var(--icon-xs);
     }
@@ -870,7 +875,7 @@ a:hover {
     }
     border: 1px solid var(--utilitary-success-500);
     background: var(--utilitary-success-50);
-    color: var(--utilitary-success-800);
+    color: var(--utilitary-success-900);
 }
 
 /***** Tamanhos *****/
@@ -900,3 +905,18 @@ a:hover {
 
 /***** Grupos de badges *****/
 
+.badge-group {
+    width: fit-content;
+    display: inline-flex;
+    padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-xs);
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.badge-group-md {
+    border-radius: var(--radius-md);
+}
+
+.badge-group-lg {
+    border-radius: var(--radius-md);
+}
