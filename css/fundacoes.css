@@ -18,6 +18,12 @@
     • Atualização e inclusão dos novos badges-groups
 */
 
+/* Atualização - 18/07/2025
+    • Inclusão das variáriaveis de cores secundárias e terciárias
+    • Renomeação da variável "error" por "danger"
+
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
@@ -121,18 +127,18 @@
     --warning-800: #FE9417;
     --warning-900: #FD7210;
     
-    /* Erro */
+    /* Risco */
     
-    --error-50: #EDE9EA;
-    --error-100: #ECCCD2;
-    --error-200: #DF989E;
-    --error-300: #D7727C;
-    --error-400: #E7525E;
-    --error-500: #ED3D48;
-    --error-600: #DC3545;
-    --error-700: #CA293E;
-    --error-800: #BE2337;
-    --error-900: #B0162B;
+    --danger-50: #EDE9EA;
+    --danger-100: #ECCCD2;
+    --danger-200: #DF989E;
+    --danger-300: #D7727C;
+    --danger-400: #E7525E;
+    --danger-500: #ED3D48;
+    --danger-600: #DC3545;
+    --danger-700: #CA293E;
+    --danger-800: #BE2337;
+    --danger-900: #B0162B;
     
     /* Alfa */
     --neutrals-100-0: #fafafa00;
@@ -187,7 +193,7 @@
     --text-success: var(--success-500);
     --text-info:var(--info-500);
     --text-warning:var(--warning-900);
-    --text-error:var(--error-400);
+    --text-danger:var(--danger-400);
     
     /***** Variáveis de bordas *****/
     
@@ -211,7 +217,7 @@
     --border-success: var(--success-400);
     --border-info:var(--info-400);
     --border-warning:var(--warning-400);
-    --border-error:var(--error-400);
+    --border-danger:var(--danger-400);
     
     
     /***** Variáveis de fundo *****/
@@ -233,7 +239,7 @@
     --bg-success: var(--success-50);
     --bg-info:var(--info-50);
     --bg-warning:var(--warning-50);
-    --bg-error:var(--error-50);
+    --bg-danger:var(--danger-50);
 
 
     /***** Variáveis de transparência *****/
@@ -298,6 +304,30 @@
     --utilitary-primary-800: var(--primary-800);
     --utilitary-primary-900: var(--primary-900);
 
+    /***** Secundária *****/
+    --utilitary-secondary-50: var(--secondary-50);
+    --utilitary-secondary-100: var(--secondary-100);
+    --utilitary-secondary-200: var(--secondary-200);
+    --utilitary-secondary-300: var(--secondary-300);
+    --utilitary-secondary-400: var(--secondary-400);
+    --utilitary-secondary-500: var(--secondary-500);
+    --utilitary-secondary-600: var(--secondary-600);
+    --utilitary-secondary-700: var(--secondary-700);
+    --utilitary-secondary-800: var(--secondary-800);
+    --utilitary-secondary-900: var(--secondary-900);
+
+    /***** Terciária *****/
+    --utilitary-tertiary-50: var(--tertiary-50);
+    --utilitary-tertiary-100: var(--tertiary-100);
+    --utilitary-tertiary-200: var(--tertiary-200);
+    --utilitary-tertiary-300: var(--tertiary-300);
+    --utilitary-tertiary-400: var(--tertiary-400);
+    --utilitary-tertiary-500: var(--tertiary-500);
+    --utilitary-tertiary-600: var(--tertiary-600);
+    --utilitary-tertiary-700: var(--tertiary-700);
+    --utilitary-tertiary-800: var(--tertiary-800);
+    --utilitary-tertiary-900: var(--tertiary-900);
+
     /***** Sucesso *****/
     --utilitary-success-50: var(--success-50);
     --utilitary-success-100: var(--success-100);
@@ -311,16 +341,16 @@
     --utilitary-success-900: var(--success-900);
     
     /***** Erro *****/
-    --utilitary-error-50: var(--error-50);
-    --utilitary-error-100: var(--error-100);
-    --utilitary-error-200: var(--error-200);
-    --utilitary-error-300: var(--error-300);
-    --utilitary-error-400: var(--error-400);
-    --utilitary-error-500: var(--error-500);
-    --utilitary-error-600: var(--error-600);
-    --utilitary-error-700: var(--error-700);
-    --utilitary-error-800: var(--error-800);
-    --utilitary-error-900: var(--error-900);
+    --utilitary-danger-50: var(--danger-50);
+    --utilitary-danger-100: var(--danger-100);
+    --utilitary-danger-200: var(--danger-200);
+    --utilitary-danger-300: var(--danger-300);
+    --utilitary-danger-400: var(--danger-400);
+    --utilitary-danger-500: var(--danger-500);
+    --utilitary-danger-600: var(--danger-600);
+    --utilitary-danger-700: var(--danger-700);
+    --utilitary-danger-800: var(--danger-800);
+    --utilitary-danger-900: var(--danger-900);
 
     /***** Aviso *****/
     --utilitary-warning-50: var(--warning-50);
